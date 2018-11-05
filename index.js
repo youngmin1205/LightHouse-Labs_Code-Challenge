@@ -80,3 +80,8 @@ const isRock = function(coordinates){
   return Boolean(lightCell(coordinate) == '^');
 }
 
+//8
+const isCurrent = function(coordinate) {
+    return Boolean(lightCell(coordinate) == '~');
+}
+
